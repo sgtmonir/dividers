@@ -1,0 +1,196 @@
+a {
+    color: #72c02c;
+    text-decoration: none;
+    background-color: transparent;
+    transition: ease all .2s;
+}
+
+a:hover {
+    color: #72c02c;
+	text-decoration: none;
+}
+
+.text-primary {
+    color: #72c02c !important;
+}
+.py-80{
+    padding: 80px 0;
+}
+.pt-80{
+	padding-top: 80px;
+}
+
+
+/****************
+**  Divider 01 **
+*****************/
+
+.divider-dotted {
+	border-top-style: dotted;
+	border-color: #ccc !important;
+}
+
+.divider-dashed{
+	border-top-style: dashed;
+	border-color: #ccc !important;	
+}
+
+.divider-db-solid {
+    height: 5px;
+    border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+.divider-db-dotted {
+    height: 5px;
+    border-top: 1px dotted #ddd;
+	border-bottom: 1px dotted #ddd;
+}
+.divider-db-dashed {
+    height: 5px;
+    border-top: 1px dashed #ddd;
+	border-bottom: 1px dashed #ddd;
+}
+.divider-linear-gradient {
+	height: 1px;
+    border: none;
+    background-image: linear-gradient(to right, transparent, #ccc, transparent);
+}
+
+/*****************
+**  Divider 02 **
+******************/
+.divider2 hr{
+    width: 28% !important;
+}
+
+/*****************
+**  Divider 03 **
+******************/
+.divider3-solid{
+    border-top: 1px solid #eee;
+    text-align: center;
+    position: relative;
+}
+.divider3 i{
+    background: #fff;
+    color: #999;
+    position: absolute;
+    top: -20px;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 37px;
+    margin-left: -20px;
+}
+.divider3-solid-2{
+    border-top: 1px solid #eee;
+    text-align: center;
+    position: relative;
+}
+.divider3-solid-2 i{
+    background: #eee;
+    color: #999;
+    position: absolute;
+    top: -20px;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 37px;
+    margin-left: -20px;
+}
+
+.divider3-solid-2 img{
+    position: absolute;
+    top: -20px;
+    width: 40px;
+    height: 40px;
+    margin-left: -20px;
+}
+
+/*****************
+**  Divider 04 ***
+******************/
+
+/* Position Left */
+.divider4-solid-left{
+    border-top: 1px solid #ddd;
+    position: relative;
+}
+
+.divider4-solid-left i{
+    background: #F8F9FA;
+    color: #999;
+    text-align: center;
+    position: absolute;
+    top: -20px;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 37px;
+    margin-left: 0px;
+}
+
+/* Position Center */
+.divider4-solid-center{
+    border-top: 1px solid #ddd;
+    position: relative;
+    text-align: center;
+}
+
+.divider4-solid-center i{
+    background: #F8F9FA;
+    color: #999;
+    text-align: left;
+    position: absolute;
+    top: -20px;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 37px;
+    margin-left: -20px;
+}
+
+/* Right Position */
+.divider4-solid-right{
+    border-top: 1px solid #ddd;
+    position: relative;
+    text-align: right;
+}
+
+.divider4-solid-right i{
+    background: #F8F9FA;
+    color: #999;
+    position: absolute;
+    top: -20px;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 37px;
+    margin-left: -40px;
+}
+
+/* Liner Gradient with center */
+.divider5-solid-center{
+    height: 1px;
+    border: none;
+    background-image: linear-gradient(to right, transparent, #ccc, transparent);
+    position: relative;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.divider5-solid-center i{
+    background: #F8F9FA;
+    color: #72C02C;
+    position: absolute;
+    top: -20px;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 37px;
+    margin-left: -20px;
+}
